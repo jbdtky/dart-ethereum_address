@@ -8,7 +8,10 @@ environment:
 
 dependencies:
   convert: ^2.1.1
-  pointycastle: ^1.0.2
+  pointycastle: 
+    git:
+      url: https://github.com/jbdtky/pc-dart.git
+      ref: master
 
 dev_dependencies:
   test: ^1.9.4
